@@ -50,17 +50,20 @@ cd assignment-xperts
 2️⃣ Install Dependencies
 
 Backend
-
+```bash
 cd server
 npm install
 
+```
 
 Frontend
-
+```bash
 cd ../client
 npm install
+```
 
 3️⃣ Set Up Environment Variables
+```bash
 server/.env
 PORT=5000
 MONGO_URI=mongodb+srv://<username>:<password>@cluster.mongodb.net/assignmentxperts
@@ -70,27 +73,26 @@ EMAIL_PASS=your_app_password
 
 client/.env
 REACT_APP_API_URL=http://localhost:5000/api
+```
 
 ▶️ Running the Application
 
 Start Backend:
-
+```bash
 cd server
 npm run dev
-
+```
 
 Start Frontend:
-
+```bash
 cd client
 npm start
-
+```
 Access the app:
 
 🌐 Frontend → http://localhost:3000
 
 ⚙️ Backend → http://localhost:5000
-
-
 
 🌍 Deployment
 
