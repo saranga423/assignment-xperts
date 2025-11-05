@@ -1,0 +1,169 @@
+/* Pricing.css */
+
+.pricing-page {
+  padding: 4rem 2rem;
+  background: #f8f9fc;
+  text-align: center;
+  font-family: 'Poppins', sans-serif;
+}
+
+/* Header */
+.pricing-header {
+  max-width: 700px;
+  margin: 0 auto 3rem;
+}
+
+.pricing-header h1 {
+  font-size: 2.5rem;
+  color: #1e2a78;
+  margin-bottom: 1rem;
+}
+
+.pricing-header p {
+  font-size: 1.1rem;
+  color: #555;
+  line-height: 1.6;
+}
+
+/* Pricing Grid */
+.pricing-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 2rem;
+  justify-items: center;
+}
+
+/* Card */
+.pricing-card {
+  background: #fff;
+  border-radius: 12px;
+  padding: 2rem;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 340px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.pricing-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.15);
+}
+
+.highlight {
+  border: 2px solid #ffca28;
+  background: #fffdf6;
+}
+
+.plan-name {
+  font-size: 1.5rem;
+  color: #1e2a78;
+  font-weight: 600;
+}
+
+.plan-tagline {
+  color: #666;
+  font-size: 0.95rem;
+  margin-bottom: 1rem;
+}
+
+.plan-price {
+  font-size: 2rem;
+  color: #ffca28;
+  font-weight: 700;
+  margin: 1rem 0;
+}
+
+.plan-features {
+  list-style: none;
+  padding: 0;
+  margin: 1.5rem 0;
+  text-align: left;
+}
+
+.plan-features li {
+  display: flex;
+  align-items: center;
+  gap: 0.6rem;
+  margin: 0.5rem 0;
+  color: #333;
+}
+
+.icon {
+  color: #1e2a78;
+}
+
+/* Buttons */
+.plan-button {
+  padding: 0.75rem 1.5rem;
+  border-radius: 8px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.primary-button {
+  background-color: #1e2a78;
+  color: #fff;
+  border: none;
+}
+
+.primary-button:hover {
+  background-color: #2a3ba1;
+}
+
+.outline-button {
+  background: transparent;
+  border: 2px solid #1e2a78;
+  color: #1e2a78;
+}
+
+.outline-button:hover {
+  background: #1e2a78;
+  color: #fff;
+}
+
+/* CTA Section */
+.cta-section {
+  margin-top: 4rem;
+  background: #1e2a78;
+  color: #fff;
+  padding: 3rem 2rem;
+  border-radius: 12px;
+}
+
+.cta-section h2 {
+  font-size: 1.8rem;
+  margin-bottom: 0.5rem;
+}
+
+.cta-section p {
+  font-size: 1rem;
+  margin-bottom: 1.5rem;
+  color: #e6e6e6;
+}
+
+.cta-button {
+  background: #ffca28;
+  color: #1e2a78;
+  padding: 0.75rem 1.5rem;
+  font-weight: 600;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.cta-button:hover {
+  background: #ffd740;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .pricing-header h1 {
+    font-size: 2rem;
+  }
+
+  .plan-price {
+    font-size: 1.8rem;
+  }
+}

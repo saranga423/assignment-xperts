@@ -1,0 +1,135 @@
+/* Login.css */
+
+.login-page {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 4rem 1.5rem;
+  font-family: "Poppins", sans-serif;
+  background: linear-gradient(135deg, #f7f8fc, #eef1ff);
+  min-height: 100vh;
+}
+
+.login-header {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.login-header h1 {
+  color: #1e2a78;
+  font-size: 2.2rem;
+  margin-bottom: 0.5rem;
+}
+
+.login-header p {
+  color: #555;
+  font-size: 1.1rem;
+}
+
+/* Login Card */
+.login-card {
+  background: #fff;
+  padding: 2.5rem 2rem;
+  border-radius: 16px;
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.08);
+  width: 100%;
+  max-width: 420px;
+  text-align: left;
+}
+
+.login-form {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.form-group label {
+  font-weight: 600;
+  color: #1e2a78;
+  margin-bottom: 0.4rem;
+  display: block;
+}
+
+.input-wrapper {
+  display: flex;
+  align-items: center;
+  border: 1.5px solid #ccc;
+  border-radius: 10px;
+  padding: 0.7rem 1rem;
+  transition: border 0.3s ease;
+}
+
+.input-wrapper:hover {
+  border-color: #1e2a78;
+}
+
+.input-wrapper .icon {
+  color: #888;
+  margin-right: 10px;
+}
+
+.input-wrapper input {
+  border: none;
+  outline: none;
+  flex: 1;
+  font-size: 1rem;
+  color: #333;
+}
+
+.form-options {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 0.95rem;
+  color: #555;
+}
+
+.forgot-link {
+  color: #1e2a78;
+  text-decoration: none;
+}
+
+.forgot-link:hover {
+  text-decoration: underline;
+}
+
+/* Login Button */
+.login-btn {
+  background: #1e2a78;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  padding: 0.9rem 1.5rem;
+  font-size: 1rem;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.login-btn:hover {
+  background: #ffca28;
+  color: #1e2a78;
+}
+
+/* Footer Text */
+.register-text {
+  text-align: center;
+  margin-top: 1.5rem;
+  color: #555;
+}
+
+.register-li
+nk {
+  color: #1e2a78;
+  text-decoration: none;
+  font-weight: 600;
+}
+.register-link:hover {
+  text-decoration: underline;
+}
+
