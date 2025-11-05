@@ -42,80 +42,80 @@ Centralized error handling and validation middleware
 
 assignment-xperts/
 │
-├── client/                         # React Frontend
-│   ├── public/
-│   │   ├── index.html
-│   │   └── favicon.ico
-│   │
-│   ├── src/
-│   │   ├── assets/                # images, icons, logos
-│   │   ├── components/
-│   │   │   ├── Navbar/
-│   │   │   ├── Footer/
-│   │   │   ├── Forms/
-│   │   │   └── Shared/
-│   │   │
-│   │   ├── pages/
-│   │   │   ├── Home.jsx
-│   │   │   ├── Services.jsx
-│   │   │   ├── Pricing.jsx
-│   │   │   ├── Contact.jsx
-│   │   │   ├── Login.jsx
-│   │   │   ├── Booking.jsx
-│   │   │   └── NotFound.jsx
-│   │   │
-│   │   ├── App.js
-│   │   ├── index.js
-│   │   └── App.css
-│   │
-│   ├── package.json
-│   ├── .env.example               # optional sample env for frontend APIs
-│   └── README.md
+├── client/ # React Frontend
+│ ├── public/
+│ │ ├── index.html
+│ │ └── favicon.ico
+│ │
+│ ├── src/
+│ │ ├── assets/ # images, icons, logos
+│ │ ├── components/
+│ │ │ ├── Navbar/
+│ │ │ ├── Footer/
+│ │ │ ├── Forms/
+│ │ │ └── Shared/
+│ │ │
+│ │ ├── pages/
+│ │ │ ├── Home.jsx
+│ │ │ ├── Services.jsx
+│ │ │ ├── Pricing.jsx
+│ │ │ ├── Contact.jsx
+│ │ │ ├── Login.jsx
+│ │ │ ├── Booking.jsx
+│ │ │ └── NotFound.jsx
+│ │ │
+│ │ ├── App.js
+│ │ ├── index.js
+│ │ └── App.css
+│ │
+│ ├── package.json
+│ ├── .env.example # optional sample env for frontend APIs
+│ └── README.md
 │
-├── server/                         # Node + Express Backend
-│   ├── server.js                   # entry point
-│   ├── package.json
-│   │
-│   ├── config/
-│   │   └── db.js                   # MongoDB connection setup
-│   │
-│   ├── controllers/
-│   │   ├── authController.js
-│   │   ├── bookingController.js
-│   │   ├── contactController.js
-│   │   ├── serviceController.js
-│   │   ├── testimonialController.js
-│   │   └── paymentController.js
-│   │
-│   ├── models/
-│   │   ├── User.model.js
-│   │   ├── Service.model.js
-│   │   ├── Booking.model.js
-│   │   ├── Contact.model.js
-│   │   └── Testimonial.model.js
-│   │
-│   ├── routes/
-│   │   ├── authRoutes.js
-│   │   ├── bookingRoutes.js
-│   │   ├── contactRoutes.js
-│   │   ├── serviceRoutes.js
-│   │   ├── testimonialRoutes.js
-│   │   └── paymentRoutes.js
-│   │
-│   ├── middleware/
-│   │   ├── auth.js
-│   │   ├── errorHandler.js
-│   │   └── validateRequest.js
-│   │
-│   ├── utils/
-│   │   └── email.js
-│   │
-│   ├── uploads/                   # static uploaded files
-│   └── .env                       # environment variables
+├── server/ # Node + Express Backend
+│ ├── server.js # entry point
+│ ├── package.json
+│ │
+│ ├── config/
+│ │ └── db.js # MongoDB connection setup
+│ │
+│ ├── controllers/
+│ │ ├── authController.js
+│ │ ├── bookingController.js
+│ │ ├── contactController.js
+│ │ ├── serviceController.js
+│ │ ├── testimonialController.js
+│ │ └── paymentController.js
+│ │
+│ ├── models/
+│ │ ├── User.model.js
+│ │ ├── Service.model.js
+│ │ ├── Booking.model.js
+│ │ ├── Contact.model.js
+│ │ └── Testimonial.model.js
+│ │
+│ ├── routes/
+│ │ ├── authRoutes.js
+│ │ ├── bookingRoutes.js
+│ │ ├── contactRoutes.js
+│ │ ├── serviceRoutes.js
+│ │ ├── testimonialRoutes.js
+│ │ └── paymentRoutes.js
+│ │
+│ ├── middleware/
+│ │ ├── auth.js
+│ │ ├── errorHandler.js
+│ │ └── validateRequest.js
+│ │
+│ ├── utils/
+│ │ └── email.js
+│ │
+│ ├── uploads/ # static uploaded files
+│ └── .env # environment variables
 │
 ├── .gitignore
-├── README.md                      # main project readme (frontend + backend)
-└── package.json                   # optional root script manager
+├── README.md # main project readme (frontend + backend)
+└── package.json # optional root script manager
 
 
 
