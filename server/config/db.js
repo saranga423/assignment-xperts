@@ -7,7 +7,7 @@ const connectDB = async () => {
       // options are default in newer mongoose versions
       useNewUrlParser: true,
         useUnifiedTopology: true,
-        
+
     });
     console.log(`✅ MongoDB Connected: ${conn.connection.host}`);
   } catch (error) {
@@ -15,5 +15,7 @@ const connectDB = async () => {
     process.exit(1);
   }
 };
+
+
 
 export default connectDB;
