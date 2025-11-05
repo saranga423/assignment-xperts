@@ -1,0 +1,1 @@
+// This script seeds the database with initial data

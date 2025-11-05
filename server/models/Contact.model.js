@@ -1,0 +1,14 @@
+// Contact model for managing user inquiries and support requests
+// server/models/Contact.model.js
+import mongoose from "mongoose";
+
+const contactSchema = new mongoose.Schema({
+  name: { type: String, required: true },
+  email: { type: String, required: true },
+  message: { type: String, required: true },
+  phone: { type: String },
+  handled: { type: Boolean, default: false }
+}, { timestamps: true });
+
+const Contact = mongoose.model("Contact", contactSchema);
+export default Contact;
