@@ -78,13 +78,21 @@ Start Backend:
 cd server
 npm run dev
 
+
 Start Frontend:
 
 cd client
 npm start
 
-🌍 Deployment
+Access the app:
 
+🌐 Frontend → http://localhost:3000
+
+⚙️ Backend → http://localhost:5000
+
+
+
+🌍 Deployment
 
 | Component    | Platform         | Notes                             |
 | ------------ | ---------------- | --------------------------------- |
